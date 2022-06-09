@@ -1,0 +1,80 @@
+.card{
+    width: 817px;
+    height: auto;
+    border: solid 1px var(--color-primary);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.cardHead{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.triangulo{
+    border-right: 29vw solid transparent; 
+    border-left: 29vw solid transparent;
+    border-top: 50px solid white;
+    width:100%;
+}
+
+.cardBody{
+    margin-top: 30px;
+    text-align: start;
+    padding: 20px;
+}
+
+.cardBody h2{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cardBody p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cardFooter{
+    margin: 5px;
+}
+
+.cardButton{
+    margin: 10px;
+    background-color: var(--color-primary);
+    border: solid 1px var(--color-primary);
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.barra{
+    margin: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .card{
+        width: 90vw;
+    }
+    .cardBody{
+        margin-top: 10vh;
+        padding:20px;
+    }
+}

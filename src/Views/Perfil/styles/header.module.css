@@ -1,0 +1,145 @@
+.nav{
+    height: 80px;
+    background-color: var(--color-primary);
+ }
+ 
+ .nav a{
+     color: white !important;
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 900;
+     letter-spacing: 0em;
+     text-align: left;
+     text-decoration: none;
+     margin: 0px 5px;
+     
+ }
+ 
+ .nav a:hover{
+     color: var(--color-primary-50) !important;
+ }
+ 
+ .bntcadastre{
+     background-color: white;
+     color: var(--color-primary);
+     border: solid 1px white;
+     margin-left: 10px;
+     margin-right: 10px;
+     border-radius: 10px;
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 19px;
+     letter-spacing: 0em;
+     text-align: left;
+     
+ 
+ }
+ 
+ .bntcadastre:hover{
+     background-color: var(--color-primary);
+     color: white;
+     border: solid 1px white;
+ }
+ 
+ .bntentra{
+     background-color: var(--color-blue-s);
+     color: white;
+     border: solid 1px var(--color-blue-s);
+     border-radius: 10px;
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 19px;
+     letter-spacing: 0em;
+     text-align: left;
+ 
+ }
+ 
+ .bntmedis{
+     background-color: white;
+     color: var(--color-primary);
+     font-family: Roboto;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 35px;
+     letter-spacing: 0em;
+     text-align: left;
+     border-radius: 10px;
+     border: solid 1px white;
+     margin-left: 5px;
+ }
+ 
+ .bntmedis:hover{
+     background-color: white;
+     color: var(--color-primary);
+     border: solid 1px white
+ }
+ 
+ .logobox{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .bntmobile{
+     display: none;
+ }
+ .menumobile{
+     display: none;
+ }
+ .boxlinks{
+     display: flex;
+     width: 50vw;
+     justify-content: center;
+ }
+ 
+ @media screen and (max-width: 900px) {
+    
+    .links{
+        display: none !important;
+    }
+    .bntmobile{
+        display: block;
+        color: white;
+        width: 60px;
+        height: 60px;
+        background: transparent;
+        border: none;
+    }
+    .bntmobile:hover{
+        background: transparent;
+        border: none;
+    }
+    .menumobile{
+         position: absolute;
+         background: var(--color-primary);
+         width: 110vw;
+         height: 270px;
+         top: 75px;
+         left: 0;
+         display: block;
+    }
+    .navbox{
+        display: flex;
+        flex-direction: column  !important;
+        padding-left: 15px;
+    }
+ 
+    .navbox a{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .navbox button{
+        margin-top: 10px;
+        width: 90vw;
+        margin-left: 0;
+        height: 40px;
+        text-align: center;
+    }
+   
+ }

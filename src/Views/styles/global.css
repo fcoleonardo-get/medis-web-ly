@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+
+:root{
+    --color-primary: #283671;
+    --color-primary-50: rgba(90, 114, 212, 0.5);
+    --color-seconday: #f1f1f1;
+    --color-gray:#989898;
+    --color-seconday: #f1f1f1;
+    --color-white: #fff;
+    --color-dark: #333;
+    --color-blue-s:#94A2E4;
+    --color-silver: #9d9c9c;
+    --color-darker: #8c93a3;
+    --color-success: #68bc1e;
+    --color-danger: #bc1e1e;
+    --color-warning: #de8608;
+    --color-bg-gray:#BBC8D0;
+}
+
+body{
+    background-image: url('../../../public/imagemdefundo.png');
+    font-family: 'Roboto', sans-serif;
+}

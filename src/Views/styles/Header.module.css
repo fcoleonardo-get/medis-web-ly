@@ -1,0 +1,30 @@
+.Header{
+    background-color: var(--color-primary);
+    height: 80px;
+    color: white;
+    z-index: 10px;
+}
+.imglogo{
+    width: 200px;
+    height: 20px;
+}
+.text{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin-left: 8vw;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .text {
+        font-size: 12px;
+    }
+    
+   
+}
